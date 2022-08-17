@@ -1,0 +1,13 @@
+fieldset {
+    border: thin solid black;
+    border-radius: 5px;
+}
+.manageServicesButton, .otherButton {
+    margin: 5px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding: 3px;
+    text-decoration: none;
+    border: thin solid grey;
+    border-radius: 5px;
+}

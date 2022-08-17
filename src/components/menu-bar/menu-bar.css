@@ -1,0 +1,26 @@
+#menuBarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+#titleSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#titleIcon {
+    font-size: 30px;
+}
+.menuBarButton {
+    border: none;
+    padding: none;
+    margin: none;
+    background: none;
+    font-size: 18px;
+}
+.menuBarButton:hover {
+    text-decoration: underline dotted black;
+    text-decoration-thickness: 2px;
+    transition: 2s;
+    cursor: pointer;
+}
