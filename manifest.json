@@ -1,0 +1,35 @@
+{
+  "name": "Codex",
+  "version": "1.0",
+  "description": "❃ Codex - keep track of your research.",
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "clipboardRead",
+    "clipboardWrite",
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+      "codex-background.ts"
+    ],
+    "persistent": false
+  },
+  "icons": {
+    "128": "./icons/codex-logo-white-with-black-background.png"
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "❃ Codex",
+    "default_popup": "index.html",
+    "theme_icons": [
+      {
+        "light": "./icons/codex-logo-white.png",
+        "dark": "./icons/codex-logo-black.png",
+        "size": 128
+      }
+    ]
+  },
+  "content_security_policy": "script-src 'self' https://fonts.googleapis.com/; object-src 'self'",
+  "manifest_version": 2
+}

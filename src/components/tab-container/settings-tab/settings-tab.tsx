@@ -1,6 +1,4 @@
 
-import React from 'react';
-
 import './settings-tab.css';
 
 const SettingsTab = () => {

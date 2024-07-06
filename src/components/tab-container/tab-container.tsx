@@ -1,8 +1,6 @@
-import React from 'react';
-
-import HistoryTab from '../tab-container/history-tab/history-tab';
-import CreateTab from '../tab-container/create-tab/create-tab';
-import SettingsTab from '../tab-container/settings-tab/settings-tab';
+import HistoryTab from './history-tab/history-tab';
+import CreateTab from './create-tab/create-tab';
+import SettingsTab from './settings-tab/settings-tab';
 
 interface TabContainerProps {
     type: string;
